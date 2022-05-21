@@ -10,7 +10,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 
 AOS.init({
   once: true,
-  delay: 800
+  mirror: true
 });
 function App() {
   return (

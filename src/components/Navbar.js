@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center p-8 shadow-sm">
+    <nav className="flex justify-between items-center p-8 shadow-sm w-screen md:w-full">
       <div className="flex items-center gap-4 cursor-default">
         <img
           className="w-16"
