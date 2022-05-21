@@ -22,7 +22,7 @@ const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #ABE188;
-  height: 100%;
+  height: 100vh;
   text-align: left;
   padding: 2rem;
   width: 100%;
