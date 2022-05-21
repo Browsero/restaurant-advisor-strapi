@@ -4,10 +4,10 @@ import Main from "./Main";
 
 function Home() {
   return (
-    <>
-    <Header />
-    <Main />
-    </>
+    <div data-aos="fade-in" data-aos-delay="800">
+      <Header />
+      <Main />
+    </div>
   );
 }
 

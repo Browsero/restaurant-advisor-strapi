@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="p-8 flex flex-col items-center justify-center gap-8 md:flex-row md:gap-32">
       <div className="grid grid-cols-2 gap-4">
-        <div data-aos="zoom-in" data-aos-delay="800" className="flex items-end">
+        <div data-aos="zoom-in" className="flex items-end">
           <img
             className="w-32 object-cover shadow-lg rounded-lg md:w-72"
             alt="img-3"

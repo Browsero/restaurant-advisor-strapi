@@ -24,7 +24,7 @@ Menu.propTypes = {
 export default Menu;
 
 const StyledMenu = styled.nav`
-  z-index: 100;
+  z-index: 20 !important;
   display: flex;
   flex-direction: column;
   justify-content: center;

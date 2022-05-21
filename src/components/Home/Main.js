@@ -8,9 +8,7 @@ import { BiWorld } from "react-icons/bi";
 function Main() {
   return (
     <div
-      data-aos="zoom-in"
       className="bg-zinc-100 mt-24 p-16 flex flex-col items-center gap-8"
-      data-aos-delay="800"
     >
       <div className="text-center flex flex-col gap-4">
         <p className="font-bold text-2xl text-orange-600">Features</p>

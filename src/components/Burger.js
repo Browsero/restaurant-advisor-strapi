@@ -33,7 +33,7 @@ export default Burger;
 
 const StyledBurger = styled.button`
   position: absolute;
-  z-index: 110 !important;
+  z-index: 40 !important;
   top: 3rem;
   right: 2rem;
   display: flex;
