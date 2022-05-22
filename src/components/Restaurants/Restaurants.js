@@ -52,7 +52,7 @@ function Restaurants() {
       )}
       <div id="restaurants" className="flex justify-center md:justify-start">
         {loading ? (
-          <p>Loading</p>
+          <img className="mx-auto" src="https://cdn.hackernoon.com/images/0*4Gzjgh9Y7Gu8KEtZ.gif" />
         ) : (
           <div data-aos="fade-in" className="md:grid md:grid-cols-2 2xl:grid-cols-4">
             {items.map((item) => (
